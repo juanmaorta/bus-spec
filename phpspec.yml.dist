@@ -1,0 +1,4 @@
+formatter.name: dot
+
+extensions:
+ - Ulabox\PhpSpec\Extension\BusySpec\Extension

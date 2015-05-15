@@ -1,0 +1,29 @@
+{
+  "name": "ulabox/busy-spec",
+  "authors": [
+    {
+      "name": "Marc Garcia",
+      "email": "markcial@gmail.com"
+    }
+  ],
+  "homepage": "https://github.com/ulabox/busy-spec",
+  "license": "MIT",
+  "require": {
+    "php": ">=5.4"
+  },
+  "require-dev": {
+    "phpspec/phpspec": "@stable",
+    "behat/behat": "@stable",
+    "bossa/phpspec2-expect": "@stable",
+    "rmiller/phpspec-extension": "@stable",
+    "memio/memio": "@stable"
+  },
+  "autoload": {
+    "psr-4": {
+      "Ulabox\\PhpSpec\\Extension\\": "src/"
+    }
+  },
+  "config": {
+    "bin-dir": "bin"
+  }
+}
